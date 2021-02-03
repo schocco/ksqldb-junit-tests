@@ -1,0 +1,26 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven {
+        url "https://packages.confluent.io/maven/"
+    }
+    maven {
+        url "https://repository.mulesoft.org/nexus/content/repositories/public/"
+    }
+}
+
+dependencies {
+    implementation "io.confluent.ksql:ksqldb-functional-tests:6.0.1"
+    implementation "org.junit.jupiter:junit-jupiter-engine:5.7.0"
+}
+
+test {
+    useJUnitPlatform()
+}

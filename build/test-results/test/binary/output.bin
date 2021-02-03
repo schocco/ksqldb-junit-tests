@@ -1,0 +1,1227 @@
+Ç[2021-02-04 00:35:34,377] INFO Adding function AS_VALUE for method public java.lang.Object io.confluent.ksql.function.udf.AsValue.asValue(java.lang.Object) (io.confluent.ksql.function.UdfLoader:142)
+Ö[2021-02-04 00:35:34,384] INFO Adding function array_distinct for method public java.util.List io.confluent.ksql.function.udf.array.ArrayDistinct.distinct(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+ß[2021-02-04 00:35:34,385] INFO Adding function array_except for method public java.util.List io.confluent.ksql.function.udf.array.ArrayExcept.except(java.util.List,java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+è[2021-02-04 00:35:34,386] INFO Adding function array_intersect for method public java.util.List io.confluent.ksql.function.udf.array.ArrayIntersect.intersect(java.util.List,java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ý[2021-02-04 00:35:34,387] INFO Adding function ARRAY_JOIN for method public java.lang.String io.confluent.ksql.function.udf.array.ArrayJoin.join(java.util.List,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ì[2021-02-04 00:35:34,388] INFO Adding function ARRAY_JOIN for method public java.lang.String io.confluent.ksql.function.udf.array.ArrayJoin.join(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ü[2021-02-04 00:35:34,388] INFO Adding function ARRAY_LENGTH for method public java.lang.Integer io.confluent.ksql.function.udf.array.ArrayLength.calcArrayLength(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ò[2021-02-04 00:35:34,389] INFO Adding function array_max for method public java.lang.Comparable io.confluent.ksql.function.udf.array.ArrayMax.arrayMax(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ò[2021-02-04 00:35:34,390] INFO Adding function array_min for method public java.lang.Comparable io.confluent.ksql.function.udf.array.ArrayMin.arrayMin(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ö[2021-02-04 00:35:34,392] INFO Adding function array_sort for method public java.util.List io.confluent.ksql.function.udf.array.ArraySort.arraySortDefault(java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+í[2021-02-04 00:35:34,392] INFO Adding function array_sort for method public java.util.List io.confluent.ksql.function.udf.array.ArraySort.arraySortWithDirection(java.util.List,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ü[2021-02-04 00:35:34,393] INFO Adding function array_union for method public java.util.List io.confluent.ksql.function.udf.array.ArrayUnion.union(java.util.List,java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Ò[2021-02-04 00:35:34,395] INFO Adding function ENTRIES for method public java.util.List io.confluent.ksql.function.udf.array.Entries.entriesInt(java.util.Map,boolean) (io.confluent.ksql.function.UdfLoader:142)
+Õ[2021-02-04 00:35:34,400] INFO Adding function ENTRIES for method public java.util.List io.confluent.ksql.function.udf.array.Entries.entriesBigInt(java.util.Map,boolean) (io.confluent.ksql.function.UdfLoader:142)
+Õ[2021-02-04 00:35:34,401] INFO Adding function ENTRIES for method public java.util.List io.confluent.ksql.function.udf.array.Entries.entriesDouble(java.util.Map,boolean) (io.confluent.ksql.function.UdfLoader:142)
+Ö[2021-02-04 00:35:34,402] INFO Adding function ENTRIES for method public java.util.List io.confluent.ksql.function.udf.array.Entries.entriesBoolean(java.util.Map,boolean) (io.confluent.ksql.function.UdfLoader:142)
+Õ[2021-02-04 00:35:34,404] INFO Adding function ENTRIES for method public java.util.List io.confluent.ksql.function.udf.array.Entries.entriesString(java.util.Map,boolean) (io.confluent.ksql.function.UdfLoader:142)
+Þ[2021-02-04 00:35:34,405] INFO Adding function GENERATE_SERIES for method public java.util.List io.confluent.ksql.function.udf.array.GenerateSeries.generateSeriesInt(int,int,int) (io.confluent.ksql.function.UdfLoader:142)
+Ú[2021-02-04 00:35:34,406] INFO Adding function GENERATE_SERIES for method public java.util.List io.confluent.ksql.function.udf.array.GenerateSeries.generateSeriesInt(int,int) (io.confluent.ksql.function.UdfLoader:142)
+á[2021-02-04 00:35:34,406] INFO Adding function GENERATE_SERIES for method public java.util.List io.confluent.ksql.function.udf.array.GenerateSeries.generateSeriesLong(long,long,int) (io.confluent.ksql.function.UdfLoader:142)
+Ý[2021-02-04 00:35:34,407] INFO Adding function GENERATE_SERIES for method public java.util.List io.confluent.ksql.function.udf.array.GenerateSeries.generateSeriesLong(long,long) (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,417] INFO Adding function datetostring for method public java.lang.String io.confluent.ksql.function.udf.datetime.DateToString.dateToString(int,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,418] INFO Adding function stringtodate for method public int io.confluent.ksql.function.udf.datetime.StringToDate.stringToDate(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ò[2021-02-04 00:35:34,419] INFO Adding function stringtotimestamp for method public long io.confluent.ksql.function.udf.datetime.StringToTimestamp.stringToTimestamp(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ƒ[2021-02-04 00:35:34,419] INFO Adding function stringtotimestamp for method public long io.confluent.ksql.function.udf.datetime.StringToTimestamp.stringToTimestamp(java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ò[2021-02-04 00:35:34,421] INFO Adding function timestamptostring for method public java.lang.String io.confluent.ksql.function.udf.datetime.TimestampToString.timestampToString(long,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ƒ[2021-02-04 00:35:34,421] INFO Adding function timestamptostring for method public java.lang.String io.confluent.ksql.function.udf.datetime.TimestampToString.timestampToString(long,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+¶[2021-02-04 00:35:34,422] INFO Adding function unix_date for method public int io.confluent.ksql.function.udf.datetime.UnixDate.unixDate() (io.confluent.ksql.function.UdfLoader:142)
+Æ[2021-02-04 00:35:34,422] INFO Adding function unix_timestamp for method public long io.confluent.ksql.function.udf.datetime.UnixTimestamp.unixTimestamp() (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,423] INFO Adding function geo_distance for method public java.lang.Double io.confluent.ksql.function.udf.geo.GeoDistance.geoDistance(double,double,double,double) (io.confluent.ksql.function.UdfLoader:142)
+ó[2021-02-04 00:35:34,423] INFO Adding function geo_distance for method public java.lang.Double io.confluent.ksql.function.udf.geo.GeoDistance.geoDistance(double,double,double,double,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ô[2021-02-04 00:35:34,425] INFO Adding function JSON_ARRAY_CONTAINS for method public java.lang.Boolean io.confluent.ksql.function.udf.json.JsonArrayContains.contains(java.lang.String,java.lang.Object) (io.confluent.ksql.function.UdfLoader:142)
+ß[2021-02-04 00:35:34,426] INFO Adding function ARRAY_CONTAINS for method public boolean io.confluent.ksql.function.udf.list.ArrayContains.contains(java.util.List,java.lang.Object) (io.confluent.ksql.function.UdfLoader:142)
+å[2021-02-04 00:35:34,427] INFO Adding function slice for method public java.util.List io.confluent.ksql.function.udf.list.Slice.slice(java.util.List,java.lang.Integer,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Õ[2021-02-04 00:35:34,428] INFO Adding function AS_MAP for method public final java.util.Map io.confluent.ksql.function.udf.map.AsMap.asMap(java.util.List,java.util.List) (io.confluent.ksql.function.UdfLoader:142)
+Æ[2021-02-04 00:35:34,430] INFO Adding function map_keys for method public java.util.List io.confluent.ksql.function.udf.map.MapKeys.mapKeys(java.util.Map) (io.confluent.ksql.function.UdfLoader:142)
+Ó[2021-02-04 00:35:34,431] INFO Adding function map_union for method public java.util.Map io.confluent.ksql.function.udf.map.MapUnion.union(java.util.Map,java.util.Map) (io.confluent.ksql.function.UdfLoader:142)
+Ì[2021-02-04 00:35:34,432] INFO Adding function map_values for method public java.util.List io.confluent.ksql.function.udf.map.MapValues.mapValues(java.util.Map) (io.confluent.ksql.function.UdfLoader:142)
+Ç[2021-02-04 00:35:34,432] INFO Adding function Abs for method public java.math.BigDecimal io.confluent.ksql.function.udf.math.Abs.abs(java.math.BigDecimal) (io.confluent.ksql.function.UdfLoader:142)
+¿[2021-02-04 00:35:34,433] INFO Adding function Abs for method public java.lang.Double io.confluent.ksql.function.udf.math.Abs.abs(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+»[2021-02-04 00:35:34,434] INFO Adding function Abs for method public java.lang.Long io.confluent.ksql.function.udf.math.Abs.abs(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+Á[2021-02-04 00:35:34,434] INFO Adding function Abs for method public java.lang.Integer io.confluent.ksql.function.udf.math.Abs.abs(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Ê[2021-02-04 00:35:34,435] INFO Adding function Ceil for method public java.math.BigDecimal io.confluent.ksql.function.udf.math.Ceil.ceil(java.math.BigDecimal) (io.confluent.ksql.function.UdfLoader:142)
+Â[2021-02-04 00:35:34,435] INFO Adding function Ceil for method public java.lang.Double io.confluent.ksql.function.udf.math.Ceil.ceil(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+¾[2021-02-04 00:35:34,435] INFO Adding function Ceil for method public java.lang.Long io.confluent.ksql.function.udf.math.Ceil.ceil(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+Ä[2021-02-04 00:35:34,435] INFO Adding function Ceil for method public java.lang.Integer io.confluent.ksql.function.udf.math.Ceil.ceil(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+¿[2021-02-04 00:35:34,436] INFO Adding function exp for method public java.lang.Double io.confluent.ksql.function.udf.math.Exp.exp(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+½[2021-02-04 00:35:34,436] INFO Adding function exp for method public java.lang.Double io.confluent.ksql.function.udf.math.Exp.exp(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+À[2021-02-04 00:35:34,436] INFO Adding function exp for method public java.lang.Double io.confluent.ksql.function.udf.math.Exp.exp(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Í[2021-02-04 00:35:34,437] INFO Adding function Floor for method public java.math.BigDecimal io.confluent.ksql.function.udf.math.Floor.floor(java.math.BigDecimal) (io.confluent.ksql.function.UdfLoader:142)
+Å[2021-02-04 00:35:34,437] INFO Adding function Floor for method public java.lang.Double io.confluent.ksql.function.udf.math.Floor.floor(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+Á[2021-02-04 00:35:34,437] INFO Adding function Floor for method public java.lang.Long io.confluent.ksql.function.udf.math.Floor.floor(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+Ç[2021-02-04 00:35:34,438] INFO Adding function Floor for method public java.lang.Integer io.confluent.ksql.function.udf.math.Floor.floor(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+¼[2021-02-04 00:35:34,438] INFO Adding function ln for method public java.lang.Double io.confluent.ksql.function.udf.math.Ln.ln(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+º[2021-02-04 00:35:34,438] INFO Adding function ln for method public java.lang.Double io.confluent.ksql.function.udf.math.Ln.ln(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+½[2021-02-04 00:35:34,439] INFO Adding function ln for method public java.lang.Double io.confluent.ksql.function.udf.math.Ln.ln(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+×[2021-02-04 00:35:34,439] INFO Adding function Round for method public java.lang.Double io.confluent.ksql.function.udf.math.Round.round(java.lang.Double,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Í[2021-02-04 00:35:34,440] INFO Adding function Round for method public java.math.BigDecimal io.confluent.ksql.function.udf.math.Round.round(java.math.BigDecimal) (io.confluent.ksql.function.UdfLoader:142)
+ß[2021-02-04 00:35:34,440] INFO Adding function Round for method public java.math.BigDecimal io.confluent.ksql.function.udf.math.Round.round(java.math.BigDecimal,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+·[2021-02-04 00:35:34,440] INFO Adding function Round for method public java.lang.Long io.confluent.ksql.function.udf.math.Round.round(long) (io.confluent.ksql.function.UdfLoader:142)
+¶[2021-02-04 00:35:34,440] INFO Adding function Round for method public java.lang.Long io.confluent.ksql.function.udf.math.Round.round(int) (io.confluent.ksql.function.UdfLoader:142)
+Ã[2021-02-04 00:35:34,441] INFO Adding function Round for method public java.lang.Long io.confluent.ksql.function.udf.math.Round.round(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+Ã[2021-02-04 00:35:34,441] INFO Adding function sign for method public java.lang.Integer io.confluent.ksql.function.udf.math.Sign.sign(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+Á[2021-02-04 00:35:34,441] INFO Adding function sign for method public java.lang.Integer io.confluent.ksql.function.udf.math.Sign.sign(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+Ä[2021-02-04 00:35:34,442] INFO Adding function sign for method public java.lang.Integer io.confluent.ksql.function.udf.math.Sign.sign(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Â[2021-02-04 00:35:34,442] INFO Adding function sqrt for method public java.lang.Double io.confluent.ksql.function.udf.math.Sqrt.sqrt(java.lang.Double) (io.confluent.ksql.function.UdfLoader:142)
+À[2021-02-04 00:35:34,443] INFO Adding function sqrt for method public java.lang.Double io.confluent.ksql.function.udf.math.Sqrt.sqrt(java.lang.Long) (io.confluent.ksql.function.UdfLoader:142)
+Ã[2021-02-04 00:35:34,443] INFO Adding function sqrt for method public java.lang.Double io.confluent.ksql.function.udf.math.Sqrt.sqrt(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+è[2021-02-04 00:35:34,444] INFO Adding function COALESCE for method public final java.lang.Object io.confluent.ksql.function.udf.nulls.Coalesce.coalesce(java.lang.Object,java.lang.Object[]) (io.confluent.ksql.function.UdfLoader:142)
+à[2021-02-04 00:35:34,445] INFO Adding function IFNULL for method public final java.lang.Object io.confluent.ksql.function.udf.nulls.IfNull.ifNull(java.lang.Object,java.lang.Object) (io.confluent.ksql.function.UdfLoader:142)
+Â[2021-02-04 00:35:34,446] INFO Adding function Chr for method public java.lang.String io.confluent.ksql.function.udf.string.Chr.chr(java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+Á[2021-02-04 00:35:34,446] INFO Adding function Chr for method public java.lang.String io.confluent.ksql.function.udf.string.Chr.chr(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ì[2021-02-04 00:35:34,446] INFO Adding function concat for method public java.lang.String io.confluent.ksql.function.udf.string.Concat.concat(java.lang.String[]) (io.confluent.ksql.function.UdfLoader:142)
+Ó[2021-02-04 00:35:34,447] INFO Adding function concat_ws for method public java.lang.String io.confluent.ksql.function.udf.string.ConcatWS.concatWS(java.lang.String[]) (io.confluent.ksql.function.UdfLoader:142)
+Ç[2021-02-04 00:35:34,447] INFO Adding function elt for method public java.lang.String io.confluent.ksql.function.udf.string.Elt.elt(int,java.lang.String[]) (io.confluent.ksql.function.UdfLoader:142)
+ì[2021-02-04 00:35:34,450] INFO Adding function encode for method public java.lang.String io.confluent.ksql.function.udf.string.Encode.encode(java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Í[2021-02-04 00:35:34,450] INFO Adding function field for method public int io.confluent.ksql.function.udf.string.Field.field(java.lang.String,java.lang.String[]) (io.confluent.ksql.function.UdfLoader:142)
+Í[2021-02-04 00:35:34,451] INFO Adding function initcap for method public java.lang.String io.confluent.ksql.function.udf.string.InitCap.initcap(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ë[2021-02-04 00:35:34,452] INFO Adding function instr for method public int io.confluent.ksql.function.udf.string.Instr.instr(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ó[2021-02-04 00:35:34,452] INFO Adding function instr for method public int io.confluent.ksql.function.udf.string.Instr.instr(java.lang.String,java.lang.String,int,int) (io.confluent.ksql.function.UdfLoader:142)
+Ï[2021-02-04 00:35:34,452] INFO Adding function instr for method public int io.confluent.ksql.function.udf.string.Instr.instr(java.lang.String,java.lang.String,int) (io.confluent.ksql.function.UdfLoader:142)
+ç[2021-02-04 00:35:34,453] INFO Adding function LPad for method public java.lang.String io.confluent.ksql.function.udf.string.LPad.lpad(java.lang.String,java.lang.Integer,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+¢[2021-02-04 00:35:34,453] INFO Adding function mask_keep_left for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKeepLeftKudf.mask(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Þ[2021-02-04 00:35:34,454] INFO Adding function mask_keep_left for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKeepLeftKudf.mask(java.lang.String,int) (io.confluent.ksql.function.UdfLoader:142)
+¤[2021-02-04 00:35:34,454] INFO Adding function mask_keep_right for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKeepRightKudf.mask(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+à[2021-02-04 00:35:34,455] INFO Adding function mask_keep_right for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKeepRightKudf.mask(java.lang.String,int) (io.confluent.ksql.function.UdfLoader:142)
+Œ[2021-02-04 00:35:34,455] INFO Adding function mask for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKudf.mask(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+È[2021-02-04 00:35:34,456] INFO Adding function mask for method public java.lang.String io.confluent.ksql.function.udf.string.MaskKudf.mask(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+™[2021-02-04 00:35:34,456] INFO Adding function mask_left for method public java.lang.String io.confluent.ksql.function.udf.string.MaskLeftKudf.mask(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Õ[2021-02-04 00:35:34,457] INFO Adding function mask_left for method public java.lang.String io.confluent.ksql.function.udf.string.MaskLeftKudf.mask(java.lang.String,int) (io.confluent.ksql.function.UdfLoader:142)
+›[2021-02-04 00:35:34,457] INFO Adding function mask_right for method public java.lang.String io.confluent.ksql.function.udf.string.MaskRightKudf.mask(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+×[2021-02-04 00:35:34,458] INFO Adding function mask_right for method public java.lang.String io.confluent.ksql.function.udf.string.MaskRightKudf.mask(java.lang.String,int) (io.confluent.ksql.function.UdfLoader:142)
+ç[2021-02-04 00:35:34,459] INFO Adding function RPad for method public java.lang.String io.confluent.ksql.function.udf.string.RPad.rpad(java.lang.String,java.lang.Integer,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ñ[2021-02-04 00:35:34,459] INFO Adding function regexp_extract for method public java.lang.String io.confluent.ksql.function.udf.string.RegexpExtract.regexpExtract(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ƒ[2021-02-04 00:35:34,459] INFO Adding function regexp_extract for method public java.lang.String io.confluent.ksql.function.udf.string.RegexpExtract.regexpExtract(java.lang.String,java.lang.String,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+ù[2021-02-04 00:35:34,460] INFO Adding function regexp_extract_all for method public java.util.List io.confluent.ksql.function.udf.string.RegexpExtractAll.regexpExtractAll(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+‹[2021-02-04 00:35:34,460] INFO Adding function regexp_extract_all for method public java.util.List io.confluent.ksql.function.udf.string.RegexpExtractAll.regexpExtractAll(java.lang.String,java.lang.String,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+‚[2021-02-04 00:35:34,461] INFO Adding function regexp_replace for method public java.lang.String io.confluent.ksql.function.udf.string.RegexpReplace.regexpReplace(java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ù[2021-02-04 00:35:34,462] INFO Adding function regexp_split_to_array for method public java.util.List io.confluent.ksql.function.udf.string.RegexpSplitToArray.regexpSplit(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ï[2021-02-04 00:35:34,462] INFO Adding function replace for method public java.lang.String io.confluent.ksql.function.udf.string.Replace.replace(java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+Ú[2021-02-04 00:35:34,463] INFO Adding function split for method public java.util.List io.confluent.ksql.function.udf.string.SplitKudf.split(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+÷[2021-02-04 00:35:34,464] INFO Adding function split_to_map for method public java.util.Map io.confluent.ksql.function.udf.string.SplitToMap.splitToMap(java.lang.String,java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+å[2021-02-04 00:35:34,464] INFO Adding function substring for method public java.lang.String io.confluent.ksql.function.udf.string.Substring.substring(java.lang.String,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+÷[2021-02-04 00:35:34,465] INFO Adding function substring for method public java.lang.String io.confluent.ksql.function.udf.string.Substring.substring(java.lang.String,java.lang.Integer,java.lang.Integer) (io.confluent.ksql.function.UdfLoader:142)
+´[2021-02-04 00:35:34,465] INFO Adding function UUID for method public java.lang.String io.confluent.ksql.function.udf.string.Uuid.uuid() (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,466] INFO Adding function url_decode_param for method public java.lang.String io.confluent.ksql.function.udf.url.UrlDecodeParamKudf.decodeParam(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,466] INFO Adding function url_encode_param for method public java.lang.String io.confluent.ksql.function.udf.url.UrlEncodeParamKudf.encodeParam(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+î[2021-02-04 00:35:34,467] INFO Adding function url_extract_fragment for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractFragmentKudf.extractFragment(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,467] INFO Adding function url_extract_host for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractHostKudf.extractHost(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+þ[2021-02-04 00:35:34,472] INFO Adding function url_extract_parameter for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractParameterKudf.extractParam(java.lang.String,java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+â[2021-02-04 00:35:34,473] INFO Adding function url_extract_path for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractPathKudf.extractPath(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+ã[2021-02-04 00:35:34,473] INFO Adding function url_extract_port for method public java.lang.Integer io.confluent.ksql.function.udf.url.UrlExtractPortKudf.extractPort(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+î[2021-02-04 00:35:34,474] INFO Adding function url_extract_protocol for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractProtocolKudf.extractProtocol(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+å[2021-02-04 00:35:34,474] INFO Adding function url_extract_query for method public java.lang.String io.confluent.ksql.function.udf.url.UrlExtractQueryKudf.extractQuery(java.lang.String) (io.confluent.ksql.function.UdfLoader:142)
+½[2021-02-04 00:35:34,477] INFO Adding UDAF name=collect_list from path=internal class=class io.confluent.ksql.function.udaf.array.CollectListUdaf (io.confluent.ksql.function.UdafLoader:71)
+½[2021-02-04 00:35:34,478] INFO Adding UDAF name=collect_list from path=internal class=class io.confluent.ksql.function.udaf.array.CollectListUdaf (io.confluent.ksql.function.UdafLoader:71)
+½[2021-02-04 00:35:34,479] INFO Adding UDAF name=collect_list from path=internal class=class io.confluent.ksql.function.udaf.array.CollectListUdaf (io.confluent.ksql.function.UdafLoader:71)
+½[2021-02-04 00:35:34,479] INFO Adding UDAF name=collect_list from path=internal class=class io.confluent.ksql.function.udaf.array.CollectListUdaf (io.confluent.ksql.function.UdafLoader:71)
+½[2021-02-04 00:35:34,479] INFO Adding UDAF name=collect_list from path=internal class=class io.confluent.ksql.function.udaf.array.CollectListUdaf (io.confluent.ksql.function.UdafLoader:71)
+»[2021-02-04 00:35:34,480] INFO Adding UDAF name=collect_set from path=internal class=class io.confluent.ksql.function.udaf.array.CollectSetUdaf (io.confluent.ksql.function.UdafLoader:71)
+»[2021-02-04 00:35:34,480] INFO Adding UDAF name=collect_set from path=internal class=class io.confluent.ksql.function.udaf.array.CollectSetUdaf (io.confluent.ksql.function.UdafLoader:71)
+»[2021-02-04 00:35:34,481] INFO Adding UDAF name=collect_set from path=internal class=class io.confluent.ksql.function.udaf.array.CollectSetUdaf (io.confluent.ksql.function.UdafLoader:71)
+»[2021-02-04 00:35:34,481] INFO Adding UDAF name=collect_set from path=internal class=class io.confluent.ksql.function.udaf.array.CollectSetUdaf (io.confluent.ksql.function.UdafLoader:71)
+»[2021-02-04 00:35:34,481] INFO Adding UDAF name=collect_set from path=internal class=class io.confluent.ksql.function.udaf.array.CollectSetUdaf (io.confluent.ksql.function.UdafLoader:71)
+²[2021-02-04 00:35:34,482] INFO Adding UDAF name=avg from path=internal class=class io.confluent.ksql.function.udaf.average.AverageUdaf (io.confluent.ksql.function.UdafLoader:71)
+²[2021-02-04 00:35:34,482] INFO Adding UDAF name=avg from path=internal class=class io.confluent.ksql.function.udaf.average.AverageUdaf (io.confluent.ksql.function.UdafLoader:71)
+²[2021-02-04 00:35:34,483] INFO Adding UDAF name=avg from path=internal class=class io.confluent.ksql.function.udaf.average.AverageUdaf (io.confluent.ksql.function.UdafLoader:71)
+½[2021-02-04 00:35:34,484] INFO Adding UDAF name=COUNT_DISTINCT from path=internal class=class io.confluent.ksql.function.udaf.count.CountDistinct (io.confluent.ksql.function.UdafLoader:71)
+¶[2021-02-04 00:35:34,484] INFO Adding UDAF name=histogram from path=internal class=class io.confluent.ksql.function.udaf.map.HistogramUdaf (io.confluent.ksql.function.UdafLoader:71)
+Å[2021-02-04 00:35:34,485] INFO Adding UDAF name=EARLIEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.EarliestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Å[2021-02-04 00:35:34,486] INFO Adding UDAF name=EARLIEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.EarliestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Å[2021-02-04 00:35:34,486] INFO Adding UDAF name=EARLIEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.EarliestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Å[2021-02-04 00:35:34,486] INFO Adding UDAF name=EARLIEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.EarliestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Å[2021-02-04 00:35:34,487] INFO Adding UDAF name=EARLIEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.EarliestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Á[2021-02-04 00:35:34,488] INFO Adding UDAF name=LATEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.LatestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Á[2021-02-04 00:35:34,488] INFO Adding UDAF name=LATEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.LatestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Á[2021-02-04 00:35:34,488] INFO Adding UDAF name=LATEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.LatestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Á[2021-02-04 00:35:34,489] INFO Adding UDAF name=LATEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.LatestByOffset (io.confluent.ksql.function.UdafLoader:71)
+Á[2021-02-04 00:35:34,489] INFO Adding UDAF name=LATEST_BY_OFFSET from path=internal class=class io.confluent.ksql.function.udaf.offset.LatestByOffset (io.confluent.ksql.function.UdafLoader:71)
+³[2021-02-04 00:35:34,490] INFO Adding UDAF name=sum_list from path=internal class=class io.confluent.ksql.function.udaf.sum.ListSumUdaf (io.confluent.ksql.function.UdafLoader:71)
+³[2021-02-04 00:35:34,490] INFO Adding UDAF name=sum_list from path=internal class=class io.confluent.ksql.function.udaf.sum.ListSumUdaf (io.confluent.ksql.function.UdafLoader:71)
+³[2021-02-04 00:35:34,490] INFO Adding UDAF name=sum_list from path=internal class=class io.confluent.ksql.function.udaf.sum.ListSumUdaf (io.confluent.ksql.function.UdafLoader:71)
+¸[2021-02-04 00:35:34,494] INFO UDFs can't be loaded as as dir src/test/resources/udf-example.jar doesn't exist or is not a directory (io.confluent.ksql.function.UserFunctionLoader:88)
+<[2021-02-04 00:35:34,496] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:34,578] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:34,743] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+<[2021-02-04 00:35:34,749] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:34,838] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:34,877] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,097] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+®[2021-02-04 00:35:35,183] INFO Query _confluent-ksql-some.ksql.service.idquery_CSAS_S1_0 requires topics [test_topic, S1] (io.confluent.ksql.query.MissingTopicClassifier:46)
+Topologies:
+   Sub-topology: 0
+=    Source: KSTREAM-SOURCE-0000000000 (topics: [test_topic])
+-      --> KSTREAM-TRANSFORMVALUES-0000000001
+?    Processor: KSTREAM-TRANSFORMVALUES-0000000001 (stores: [])
+      --> Project
+$      <-- KSTREAM-SOURCE-0000000000
+$    Processor: Project (stores: [])
+"      --> KSTREAM-SINK-0000000003
+-      <-- KSTREAM-TRANSFORMVALUES-0000000001
+.    Sink: KSTREAM-SINK-0000000003 (topic: S1)
+      <-- Project
+
+<[2021-02-04 00:35:35,294] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:35,297] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,300] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+<[2021-02-04 00:35:35,315] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:35,317] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,322] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,327] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,329] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,345] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+®[2021-02-04 00:35:35,377] INFO Query _confluent-ksql-some.ksql.service.idquery_CSAS_S1_0 requires topics [test_topic, S1] (io.confluent.ksql.query.MissingTopicClassifier:46)
+Topologies:
+   Sub-topology: 0
+=    Source: KSTREAM-SOURCE-0000000000 (topics: [test_topic])
+-      --> KSTREAM-TRANSFORMVALUES-0000000001
+?    Processor: KSTREAM-TRANSFORMVALUES-0000000001 (stores: [])
+      --> Project
+$      <-- KSTREAM-SOURCE-0000000000
+$    Processor: Project (stores: [])
+"      --> KSTREAM-SINK-0000000003
+-      <-- KSTREAM-TRANSFORMVALUES-0000000001
+.    Sink: KSTREAM-SINK-0000000003 (topic: S1)
+      <-- Project
+
+<[2021-02-04 00:35:35,400] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:35,402] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,404] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+<[2021-02-04 00:35:35,408] INFO ProcessingLogConfig values: 
+.	ksql.logging.processing.rows.include = false
+4	ksql.logging.processing.stream.auto.create = false
+;	ksql.logging.processing.stream.name = KSQL_PROCESSING_LOG
+3	ksql.logging.processing.topic.auto.create = false
+'	ksql.logging.processing.topic.name = 
+.	ksql.logging.processing.topic.partitions = 1
+6	ksql.logging.processing.topic.replication.factor = 1
+@ (io.confluent.ksql.logging.processing.ProcessingLogConfig:354)
+3[2021-02-04 00:35:35,409] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,412] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,415] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,417] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+3[2021-02-04 00:35:35,427] INFO KsqlConfig values: 
+%	ksql.access.validator.enable = auto
+0	ksql.authorization.cache.expiry.time.secs = 30
+.	ksql.authorization.cache.max.entries = 10000
+*	ksql.connect.url = http://localhost:8083
+	ksql.connect.worker.config = 
+ 	ksql.error.classifier.regex = 
+	ksql.extension.dir = ext
+«	ksql.hidden.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+(	ksql.insert.into.values.enabled = true
+-	ksql.internal.topic.min.insync.replicas = 1
+"	ksql.internal.topic.replicas = 1
+	ksql.metrics.extension = null
+	ksql.metrics.tags.custom = 
+"	ksql.output.topic.name.prefix = 
+,	ksql.persistence.wrap.single.values = true
+!	ksql.persistent.prefix = query_
+!	ksql.pull.queries.enable = true
+1	ksql.query.persistent.active.limit = 2147483647
+.	ksql.query.pull.enable.standby.reads = false
+>	ksql.query.pull.max.allowed.offset.lag = 9223372036854775807
+&	ksql.query.pull.max.qps = 2147483647
+)	ksql.query.pull.metrics.enabled = false
+­	ksql.readonly.topics = [_confluent.*, __confluent.*, _schemas, __consumer_offsets, __transaction_state, connect-configs, connect-offsets, connect-status, connect-statuses]
+	ksql.schema.registry.url = 
+&	ksql.security.extension.class = null
+(	ksql.service.id = some.ksql.service.id
+<	ksql.sink.window.change.log.additional.retention = 1000000
++	ksql.streams.shutdown.timeout.ms = 300000
+)	ksql.timestamp.throw.on.invalid = false
+$	ksql.transient.prefix = transient_
+"	ksql.udf.collect.metrics = false
+)	ksql.udf.enable.security.manager = true
+	ksql.udfs.enabled = true
+	metric.reporters = []
+	ssl.cipher.suites = null
+,	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+/	ssl.endpoint.identification.algorithm = https
+!	ssl.engine.factory.class = null
+	ssl.key.password = null
+$	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+)	ssl.secure.random.implementation = null
+#	ssl.trustmanager.algorithm = PKIX
+ 	ssl.truststore.location = null
+ 	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+) (io.confluent.ksql.util.KsqlConfig:354)
+®[2021-02-04 00:35:35,448] INFO Query _confluent-ksql-some.ksql.service.idquery_CSAS_S1_0 requires topics [test_topic, S1] (io.confluent.ksql.query.MissingTopicClassifier:46)
+Topologies:
+   Sub-topology: 0
+=    Source: KSTREAM-SOURCE-0000000000 (topics: [test_topic])
+-      --> KSTREAM-TRANSFORMVALUES-0000000001
+?    Processor: KSTREAM-TRANSFORMVALUES-0000000001 (stores: [])
+      --> Project
+$      <-- KSTREAM-SOURCE-0000000000
+$    Processor: Project (stores: [])
+"      --> KSTREAM-SINK-0000000003
+-      <-- KSTREAM-TRANSFORMVALUES-0000000001
+.    Sink: KSTREAM-SINK-0000000003 (topic: S1)
+      <-- Project
+
