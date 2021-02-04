@@ -1,0 +1,9 @@
+{
+  "outputs": [
+    {"topic": "cars_upper", "timestamp": 0, "key": 0, "value": {"BRAND": "LOWER"}},
+    {"topic": "cars_upper", "timestamp": 0, "key": 100, "value": {"BRAND": "LOWER"}},
+    {"topic": "cars_upper", "timestamp": 0, "key": 101, "value": {"BRAND": "LOWER"}},
+    {"topic": "cars_upper", "timestamp": 0, "key": 101, "value": {"BRAND": "LOWER"}},
+    {"topic": "cars_upper", "timestamp": 0, "key": 101, "value": {"BRAND": "LOWER"}}
+  ]
+}

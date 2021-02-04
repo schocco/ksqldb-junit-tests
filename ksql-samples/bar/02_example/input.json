@@ -1,0 +1,9 @@
+{
+  "inputs": [
+    {"topic": "cars", "timestamp": 0, "key": 0, "value": {"BRAND": "lowercase"}},
+    {"topic": "cars", "timestamp": 0, "key": 100, "value": {"BRAND": "lowercase"}},
+    {"topic": "cars", "timestamp": 0, "key": 101, "value": {"BRAND": "lowercase" }},
+    {"topic": "cars", "timestamp": 0, "key": 101, "value": {"BRAND": "lowercase"}},
+    {"topic": "cars", "timestamp": 0, "key": 101, "value": {"BRAND": "lowercase"}}
+  ]
+}
